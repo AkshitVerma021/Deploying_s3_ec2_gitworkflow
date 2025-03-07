@@ -33,7 +33,7 @@ jobs:
       - name: Launch EC2 Instance
         run: |
           INSTANCE_ID=$(aws ec2 run-instances \
-            --image-id ami-05b10e08d247fb927 \
+            --image-id ami-0d682f26195e9ec0f \
             --instance-type t2.micro \
             --key-name Linux_KP \
             --security-group-ids sg-0f7c7339faa4c15a7 \
