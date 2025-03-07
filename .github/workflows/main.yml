@@ -36,6 +36,6 @@ jobs:
             --image-id ami-00bb6a80f01f03502 \
             --instance-type t2.micro \
             --key-name Linux_KP \
-            --security-group-ids sg-0f7c7339faa4c15a7 \
+            --security-group-ids sg-01fb335510fc98e0d \
             --query "Instances[0].InstanceId" --output text)
           echo "EC2 Instance launched: $INSTANCE_ID"
